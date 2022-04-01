@@ -1,0 +1,34 @@
+# Include your project-specific ignores in this file
+# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
+
+## General
+.cvs
+.htaccess
+.svn
+.env
+*.bak
+*.log
+*.swp
+*.sql
+
+## Windows
+Desktop.ini
+Thumbs.db
+
+## Mac
+.DS_Store
+
+## Development
+.cache-loader
+dist
+uploads
+bower_components
+node_modules
+vendor
+
+.git
+sitemap.json
+npm-debug.log
+yarn-error.log
+resources/assets/config-local.json
+package-lock.json
